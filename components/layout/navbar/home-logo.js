@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MySelfie from "../../ui/my-selfie";
+import { SiGithub } from "react-icons/si";
 
 const HomeLogo = () => {
   return (
@@ -20,8 +21,9 @@ const HomeLogo = () => {
 
 const styles = {
   container: "flex justify-center items-center",
-  image: "mx-3 overflow-hidden border-2 border-black rounded-2xl",
-  text: "text-3xl",
+  image:
+    "mx-3 overflow-hidden border-2 border-black dark:border-white rounded-xl",
+  text: "text-2xl",
 };
 
 export default HomeLogo;
